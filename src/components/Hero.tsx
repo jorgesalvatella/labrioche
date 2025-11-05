@@ -20,12 +20,12 @@ export default function Hero() {
         />
       </div>
 
-      <div className="relative z-10 text-center px-4">
+      <div className="relative z-10 text-center px-4 w-full max-w-7xl mx-auto">
         <motion.p
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8, delay: 0.2 }}
-          className="text-gold text-sm tracking-[0.3em] uppercase mb-8 font-medium"
+          className="text-gold text-xs sm:text-sm tracking-[0.2em] sm:tracking-[0.3em] uppercase mb-6 sm:mb-8 font-medium"
         >
           Oportunidad de Inversión
         </motion.p>
@@ -34,7 +34,7 @@ export default function Hero() {
           initial={{ opacity: 0, scale: 0.9 }}
           animate={{ opacity: 1, scale: 1 }}
           transition={{ duration: 1, delay: 0.4 }}
-          className="font-playfair text-7xl md:text-9xl lg:text-[12rem] font-black mb-4 text-gradient glow-gold"
+          className="font-playfair text-5xl sm:text-7xl md:text-9xl lg:text-[12rem] font-black mb-3 sm:mb-4 text-gradient glow-gold break-words"
         >
           LABRIOCHE
         </motion.h1>
@@ -43,7 +43,7 @@ export default function Hero() {
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           transition={{ duration: 0.8, delay: 0.7 }}
-          className="font-playfair text-2xl md:text-4xl tracking-widest mb-12 opacity-90"
+          className="font-playfair text-xl sm:text-2xl md:text-4xl tracking-wider sm:tracking-widest mb-8 sm:mb-12 opacity-90"
         >
           Coffee Bar
         </motion.p>
@@ -52,7 +52,7 @@ export default function Hero() {
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8, delay: 1 }}
-          className="max-w-3xl mx-auto text-lg md:text-xl leading-relaxed opacity-80 border-t border-b border-gold/30 py-8"
+          className="max-w-3xl mx-auto text-base sm:text-lg md:text-xl leading-relaxed opacity-80 border-t border-b border-gold/30 py-6 sm:py-8 px-2"
         >
           Una oportunidad excepcional de alto valor en el mercado gourmet premium de México
         </motion.p>
